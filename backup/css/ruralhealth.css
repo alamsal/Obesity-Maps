@@ -1,0 +1,114 @@
+body {
+	margin-right: auto; 
+	margin-left: auto; 
+	width:1200px;
+
+    
+
+}
+#header {
+    clear: both;
+    height: 90px;
+    background-color:#D2DFF2;
+    padding: 1px;
+	
+}
+#headercontainer
+{	margin-top:4px;
+	width: 100%;
+	height:90px;
+	border-bottom-style:solid;
+	border-bottom-width:3px;
+	border-bottom-color: #CCCCFF;
+	padding-bottom:1px;
+	background:url(../images/headerback.jpg);
+}
+#dlogo{
+	float: left;
+	height: 90px;
+	width: 68px;
+	background:url(../images/gisce.png) left center no-repeat;
+}
+#dinfotext{
+	float:left;
+	/* background-color: #FF00BB; */	
+	width:80%;
+	height: 90px;
+	margin-left:1%;
+	line-height:45px;
+}
+#dinfotext p{
+	font-family: Times,sans-serif,Tahoma;
+	/*font-size: 27px;*/
+	font-variant: small-caps;
+	font-weight: bold;
+	margin-top:15px;
+	padding-left:5px;
+	text-align: center;
+	
+}
+#dinfotext p span{
+	font-family: Times,sans-serif,Tahoma;
+	font-size: 27px;
+	#font-size:25px; //font size for IE
+	color:#00296D;
+	font-variant: small-caps;
+	font-weight: bold; 
+	margin-top:25px;
+	padding-left:3px;
+	line-height:35px;	
+}
+
+#dnifa{
+	float:right;
+	height: 90px;
+	width:124px;
+	background: url(../images/nifa.jpg) center no-repeat;
+}
+#projectdescription{
+	font-size:16px;
+	margin-top:10px;
+	padding:5px;
+	color:#15156A;
+	height:157px;
+	width:1150px;
+}
+#layer {
+    float: left;
+	margin-left:auto;
+    width: 277px;
+    height:650px;
+    background-color: #D2DFF2;
+	overflow:hidden;
+}
+#legend {
+    float: right;
+	margin-right:auto;
+    width: 200px;
+    height:650px;
+    background-color: #D2DFF2;
+    z-index: 10000;
+    
+}
+#map {
+	//top right bottom left
+	width:600px;
+	height:650px;
+    background-color: #D2DFF2;
+
+}
+#grantdescription{
+	font-family: Times,sans-serif,Tahoma;	
+	padding:5px;
+	color:#000000;
+	height:50px;
+	width:1150px;
+}
+#footer {
+ clear:both; font-size:14px; width:1200px; background-color:#D2DFF2; padding:10px; float:left;
+ }
+.lft				{ float:left;}
+.rft				{ float:right;}
+.clear{
+clear:both;
+}
